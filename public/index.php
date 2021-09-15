@@ -1,2 +1,4 @@
 <?php
-print_r($_REQUEST);
+require_once "../app/bootstrap.php";
+
+$init = new Core();
